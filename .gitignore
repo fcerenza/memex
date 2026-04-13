@@ -1,0 +1,22 @@
+# Obsidian
+.obsidian/*
+!.obsidian/app.json
+!.obsidian/core-plugins.json
+!.obsidian/community-plugins.json
+
+# Claude Code session-specific permissions (auto-generated, not portable)
+.claude/settings.local.json
+
+# System
+.DS_Store
+*.tmp
+
+# Node
+node_modules/
+
+# qmd local state
+/.cache/
+/.config/qmd/
+
+# Local scripts (personal automation, not part of OSS release)
+scripts/
